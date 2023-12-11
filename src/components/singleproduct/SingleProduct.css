@@ -1,0 +1,47 @@
+.single-product{
+    max-width: 1540px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 242px;
+}
+
+.single-product__wp {
+    max-width: 1400px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+
+}
+
+.single-product__h1 {
+    color: #FFF;
+    font-family: Jomolhari;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.single-product__image {
+    width: 956px;
+    height: 376px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.single-product__p {
+    color: #FFF;
+    font-family: Jomolhari;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+}

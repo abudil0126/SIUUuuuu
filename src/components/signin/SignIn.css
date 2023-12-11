@@ -1,0 +1,138 @@
+.login__wp {
+    max-width: 1540px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+
+.signin__card {
+    width: 100%;
+    max-width: 484px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border-radius: 76px;
+    background: #F5C147;
+}
+
+.login__logo {
+    color: #FFF;
+    font-family: Jomolhari;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    background-color: #000;
+    margin-top: 27px;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.login__p {
+    color: #000;
+    font-family: Jomolhari;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+
+.login__input {
+    width: 378px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 17px;
+    border: 3px solid #000;
+    background: #FFF;
+    text-indent: 22px;
+    color: #787878;
+    font-family: Jomolhari;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper svg {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    right: 16px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.login__password {
+    width: 378px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 17px;
+    border: 3px solid #000;
+    background: #FFF;
+    text-indent: 22px;
+    color: #787878;
+    font-family: Jomolhari;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+
+.login__info {
+    color: #000;
+    font-family: Jomolhari;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.login__a {
+    color: #0027F3;
+    font-family: Jomolhari;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.login__btn {
+    width: 203px;
+    height: 62px;
+    flex-shrink: 0;
+    border-radius: 23px;
+    background: #000;
+    color: #FFF;
+    font-family: Jomolhari;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.login__btn:disabled {
+    opacity: 0.5;
+}
+
+.signin__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
